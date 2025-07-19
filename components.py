@@ -90,6 +90,25 @@ class Skills:
         ]
         self.skills = {s: {'bonus': 0, 'xp_pips': [0]*10, 'attuned': False} for s in skill_names}
 
+class SpellBook:
+    """Component to track known spells for spell casters."""
+    def __init__(self):
+        self.spells = []  # List of spell dictionaries
+        self.is_unlocked = False  # Unlocked when Int >= 50
+    
+    def add_spell(self, spell_data):
+        """Add a spell to the spell book."""
+        if spell_data not in self.spells:
+            self.spells.append(spell_data)
+    
+    def can_cast_spell(self, spell, current_int):
+        """Check if a spell can be cast based on current Intelligence."""
+        return spell in self.spells and current_int >= spell['int_requirement']
+    
+    def get_castable_spells(self, current_int):
+        """Get all spells that can be cast with current Intelligence."""
+        return [spell for spell in self.spells if current_int >= spell['int_requirement']]
+
 class TimeManager:
     """A component for the game manager entity to track in-game time."""
     def __init__(self):

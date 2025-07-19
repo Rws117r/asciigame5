@@ -1,0 +1,204 @@
+{
+    "spells": {
+        "1": {
+            "name": "Open Magic",
+            "int_requirement": 50,
+            "cost_type": "hp",
+            "cost": 1,
+            "effect": "open_magic",
+            "description": "Opens a magically sealed door"
+        },
+        "5": {
+            "name": "Resurrection",
+            "int_requirement": 50,
+            "cost_type": "str",
+            "cost": 15,
+            "effect": "resurrection",
+            "description": "Adds an R to the adventurer's Life points box"
+        },
+        "9": {
+            "name": "Healing",
+            "int_requirement": 50,
+            "cost_type": "str",
+            "cost": 5,
+            "effect": "heal_all",
+            "description": "Restores all lost Health Points"
+        },
+        "13": {
+            "name": "Heal",
+            "int_requirement": 50,
+            "cost_type": "str",
+            "cost": 5,
+            "effect": "heal_10",
+            "description": "Restore up to 10 lost Health Points"
+        },
+        "17": {
+            "name": "Fire Blast",
+            "int_requirement": 50,
+            "cost_type": "hp",
+            "cost": 1,
+            "effect": "damage_2",
+            "description": "Deal 2 HP damage to a monster at start of next combat round"
+        },
+        "21": {
+            "name": "Fire Ball",
+            "int_requirement": 50,
+            "cost_type": "hp",
+            "cost": 2,
+            "effect": "damage_4",
+            "description": "Deal 4 HP damage to a monster at start of next combat round"
+        },
+        "25": {
+            "name": "Ice Storm",
+            "int_requirement": 50,
+            "cost_type": "hp",
+            "cost": 3,
+            "effect": "ice_storm",
+            "description": "Deal 1d10 damage, if monster survives it suffers -5 AV"
+        },
+        "29": {
+            "name": "Magic Armour",
+            "int_requirement": 50,
+            "cost_type": "hp",
+            "cost": 2,
+            "effect": "armor_1",
+            "description": "Gain +1 Def until end of encounter"
+        },
+        "33": {
+            "name": "Mighty",
+            "int_requirement": 50,
+            "cost_type": "hp",
+            "cost": 1,
+            "effect": "str_boost",
+            "description": "Gain +10 Str to next d100 dice roll"
+        },
+        "37": {
+            "name": "Skilful",
+            "int_requirement": 50,
+            "cost_type": "hp",
+            "cost": 1,
+            "effect": "dex_boost",
+            "description": "Gain +10 Dex to next d100 dice roll"
+        },
+        "41": {
+            "name": "Know",
+            "int_requirement": 50,
+            "cost_type": "hp",
+            "cost": 1,
+            "effect": "int_boost",
+            "description": "Gain +10 Int to next d100 dice roll"
+        },
+        "45": {
+            "name": "Almighty",
+            "int_requirement": 55,
+            "cost_type": "hp",
+            "cost": 2,
+            "effect": "str_boost_20",
+            "description": "Gain +20 Str to next d100 dice roll"
+        },
+        "49": {
+            "name": "Skilled",
+            "int_requirement": 55,
+            "cost_type": "hp",
+            "cost": 2,
+            "effect": "dex_boost_20",
+            "description": "Gain +20 Dex to next d100 dice roll"
+        },
+        "53": {
+            "name": "Knowledge",
+            "int_requirement": 55,
+            "cost_type": "hp",
+            "cost": 2,
+            "effect": "int_boost_20",
+            "description": "Gain +20 Int to next d100 dice roll"
+        },
+        "57": {
+            "name": "Alter Time",
+            "int_requirement": 60,
+            "cost_type": "hp",
+            "cost": 3,
+            "effect": "alter_time",
+            "description": "Remove 10 from the time track"
+        },
+        "61": {
+            "name": "Clone",
+            "int_requirement": 60,
+            "cost_type": "hp",
+            "cost": 3,
+            "effect": "clone",
+            "description": "Create exact replica that fights alongside adventurer"
+        },
+        "65": {
+            "name": "Clumsy",
+            "int_requirement": 60,
+            "cost_type": "hp",
+            "cost": 3,
+            "effect": "clumsy",
+            "description": "Monster suffers -10 to AV"
+        },
+        "69": {
+            "name": "Confuse",
+            "int_requirement": 60,
+            "cost_type": "hp",
+            "cost": 4,
+            "effect": "confuse",
+            "description": "Monster does not attack for next combat round"
+        },
+        "73": {
+            "name": "Counter",
+            "int_requirement": 60,
+            "cost_type": "hp",
+            "cost": 2,
+            "effect": "counter",
+            "description": "Used after monster with Dark Magic rolls for spell"
+        },
+        "77": {
+            "name": "Invisibility",
+            "int_requirement": 60,
+            "cost_type": "hp",
+            "cost": 4,
+            "effect": "invisibility",
+            "description": "Escape encounter without needing escape test"
+        },
+        "81": {
+            "name": "Lightning",
+            "int_requirement": 65,
+            "cost_type": "hp",
+            "cost": 5,
+            "effect": "lightning",
+            "description": "Deal 1d10 damage, monster gains +10 to all D100 tests"
+        },
+        "85": {
+            "name": "Mirror Image",
+            "int_requirement": 65,
+            "cost_type": "hp",
+            "cost": 5,
+            "effect": "mirror_image",
+            "description": "Monster suffers -10 AV, adventurer gains +10 to D100 tests"
+        },
+        "89": {
+            "name": "Manipulate",
+            "int_requirement": 70,
+            "cost_type": "hp",
+            "cost": 2,
+            "effect": "manipulate",
+            "description": "Re-roll any die just rolled if cast in combat"
+        },
+        "93": {
+            "name": "Summons",
+            "int_requirement": 70,
+            "cost_type": "hp",
+            "cost": 4,
+            "effect": "summons",
+            "description": "Summon monster to fight in place of adventurer"
+        },
+        "97": {
+            "name": "Drain Life",
+            "int_requirement": 75,
+            "cost_type": "hp",
+            "cost": 3,
+            "effect": "drain_life",
+            "description": "All HP lost by monster restores equal HP to adventurer"
+        }
+    }
+}

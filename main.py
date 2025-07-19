@@ -7,10 +7,8 @@ import json
 
 # Import the necessary classes from our new modules
 from config import *
-# --- MODIFICATION START ---
-# Import the entire game_states module to ensure all its classes are loaded.
-import game_states
-# --- MODIFICATION END ---
+# Import from the new modular structure
+from menu_states import TitleScreen
 
 class Game:
     """The main class that runs the game and manages states."""
@@ -28,12 +26,11 @@ class Game:
         # Load all game data on initialization
         self.monsters_data = self.load_json_data("monsters.json")
         self.items_data = self.load_json_data("items.json")
+        self.spells_data = self.load_json_data("spells.json")
         self.player_data = None # Will be created in CharCreationScreen
 
-        # --- MODIFICATION START ---
-        # The state stack starts with the title screen, referenced through the module.
-        self.states = [game_states.TitleScreen(self)]
-        # --- MODIFICATION END ---
+        # The state stack starts with the title screen
+        self.states = [TitleScreen(self)]
 
     def load_json_data(self, filepath):
         """Loads data from a JSON file."""

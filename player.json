@@ -3,9 +3,9 @@
     "race": "Elf",
     "hero_path": "Warrior",
     "stats": {
-        "str": 35,
-        "dex": 50,
-        "int": 35,
+        "str": 55,
+        "dex": 40,
+        "int": 25,
         "hp": 20
     },
     "info": {
@@ -18,5 +18,535 @@
     "skills_choice": [
         "Agility",
         "Aware"
+    ],
+    "starting_equipment": [
+        {
+            "type": "weapon",
+            "key": "bill",
+            "data": {
+                "name": "Bill",
+                "slot": "two_hand",
+                "bonuses": {
+                    "dmg": 6
+                },
+                "value": 243
+            }
+        },
+        {
+            "type": "armor",
+            "key": "studded_leather_bracers",
+            "data": {
+                "name": "Studded Leather Bracers",
+                "slot": "arms",
+                "bonuses": {
+                    "def": 1
+                },
+                "value": 83
+            }
+        },
+        {
+            "type": "armor",
+            "key": "studded_leather_sollerets",
+            "data": {
+                "name": "Studded Leather Sollerets",
+                "slot": "feet",
+                "bonuses": {
+                    "def": 1
+                },
+                "value": 87
+            }
+        },
+        {
+            "type": "armor",
+            "key": "studded_leather_brigandine",
+            "data": {
+                "name": "Studded Leather Brigandine",
+                "slot": "torso",
+                "bonuses": {
+                    "def": 1
+                },
+                "value": 123
+            }
+        },
+        {
+            "type": "consumable",
+            "key": "starting_lantern_oil_(flask)",
+            "data": {
+                "name": "Lantern Oil (Flask)",
+                "slot": "consumable",
+                "value": 30,
+                "effect": "add_oil"
+            }
+        },
+        {
+            "type": "consumable",
+            "key": "starting_lantern_oil_(flask)",
+            "data": {
+                "name": "Lantern Oil (Flask)",
+                "slot": "consumable",
+                "value": 30,
+                "effect": "add_oil"
+            }
+        },
+        {
+            "type": "consumable",
+            "key": "starting_lantern_oil_(flask)",
+            "data": {
+                "name": "Lantern Oil (Flask)",
+                "slot": "consumable",
+                "value": 30,
+                "effect": "add_oil"
+            }
+        },
+        {
+            "type": "consumable",
+            "key": "starting_lantern_oil_(flask)",
+            "data": {
+                "name": "Lantern Oil (Flask)",
+                "slot": "consumable",
+                "value": 30,
+                "effect": "add_oil"
+            }
+        },
+        {
+            "type": "consumable",
+            "key": "starting_lantern_oil_(flask)",
+            "data": {
+                "name": "Lantern Oil (Flask)",
+                "slot": "consumable",
+                "value": 30,
+                "effect": "add_oil"
+            }
+        },
+        {
+            "type": "consumable",
+            "key": "starting_lantern_oil_(flask)",
+            "data": {
+                "name": "Lantern Oil (Flask)",
+                "slot": "consumable",
+                "value": 30,
+                "effect": "add_oil"
+            }
+        },
+        {
+            "type": "consumable",
+            "key": "starting_lantern_oil_(flask)",
+            "data": {
+                "name": "Lantern Oil (Flask)",
+                "slot": "consumable",
+                "value": 30,
+                "effect": "add_oil"
+            }
+        },
+        {
+            "type": "consumable",
+            "key": "starting_lantern_oil_(flask)",
+            "data": {
+                "name": "Lantern Oil (Flask)",
+                "slot": "consumable",
+                "value": 30,
+                "effect": "add_oil"
+            }
+        },
+        {
+            "type": "consumable",
+            "key": "starting_lantern_oil_(flask)",
+            "data": {
+                "name": "Lantern Oil (Flask)",
+                "slot": "consumable",
+                "value": 30,
+                "effect": "add_oil"
+            }
+        },
+        {
+            "type": "consumable",
+            "key": "starting_lantern_oil_(flask)",
+            "data": {
+                "name": "Lantern Oil (Flask)",
+                "slot": "consumable",
+                "value": 30,
+                "effect": "add_oil"
+            }
+        },
+        {
+            "type": "consumable",
+            "key": "starting_lantern_oil_(flask)",
+            "data": {
+                "name": "Lantern Oil (Flask)",
+                "slot": "consumable",
+                "value": 30,
+                "effect": "add_oil"
+            }
+        },
+        {
+            "type": "consumable",
+            "key": "starting_lantern_oil_(flask)",
+            "data": {
+                "name": "Lantern Oil (Flask)",
+                "slot": "consumable",
+                "value": 30,
+                "effect": "add_oil"
+            }
+        },
+        {
+            "type": "consumable",
+            "key": "starting_lantern_oil_(flask)",
+            "data": {
+                "name": "Lantern Oil (Flask)",
+                "slot": "consumable",
+                "value": 30,
+                "effect": "add_oil"
+            }
+        },
+        {
+            "type": "consumable",
+            "key": "starting_lantern_oil_(flask)",
+            "data": {
+                "name": "Lantern Oil (Flask)",
+                "slot": "consumable",
+                "value": 30,
+                "effect": "add_oil"
+            }
+        },
+        {
+            "type": "consumable",
+            "key": "starting_lantern_oil_(flask)",
+            "data": {
+                "name": "Lantern Oil (Flask)",
+                "slot": "consumable",
+                "value": 30,
+                "effect": "add_oil"
+            }
+        },
+        {
+            "type": "consumable",
+            "key": "starting_lantern_oil_(flask)",
+            "data": {
+                "name": "Lantern Oil (Flask)",
+                "slot": "consumable",
+                "value": 30,
+                "effect": "add_oil"
+            }
+        },
+        {
+            "type": "consumable",
+            "key": "starting_lantern_oil_(flask)",
+            "data": {
+                "name": "Lantern Oil (Flask)",
+                "slot": "consumable",
+                "value": 30,
+                "effect": "add_oil"
+            }
+        },
+        {
+            "type": "consumable",
+            "key": "starting_lantern_oil_(flask)",
+            "data": {
+                "name": "Lantern Oil (Flask)",
+                "slot": "consumable",
+                "value": 30,
+                "effect": "add_oil"
+            }
+        },
+        {
+            "type": "consumable",
+            "key": "starting_lantern_oil_(flask)",
+            "data": {
+                "name": "Lantern Oil (Flask)",
+                "slot": "consumable",
+                "value": 30,
+                "effect": "add_oil"
+            }
+        },
+        {
+            "type": "consumable",
+            "key": "starting_lantern_oil_(flask)",
+            "data": {
+                "name": "Lantern Oil (Flask)",
+                "slot": "consumable",
+                "value": 30,
+                "effect": "add_oil"
+            }
+        },
+        {
+            "type": "consumable",
+            "key": "starting_food_(leather_bag)",
+            "data": {
+                "name": "Food (Leather Bag)",
+                "slot": "consumable",
+                "value": 20,
+                "effect": "add_food"
+            }
+        },
+        {
+            "type": "consumable",
+            "key": "starting_food_(leather_bag)",
+            "data": {
+                "name": "Food (Leather Bag)",
+                "slot": "consumable",
+                "value": 20,
+                "effect": "add_food"
+            }
+        },
+        {
+            "type": "consumable",
+            "key": "starting_food_(leather_bag)",
+            "data": {
+                "name": "Food (Leather Bag)",
+                "slot": "consumable",
+                "value": 20,
+                "effect": "add_food"
+            }
+        },
+        {
+            "type": "consumable",
+            "key": "starting_food_(leather_bag)",
+            "data": {
+                "name": "Food (Leather Bag)",
+                "slot": "consumable",
+                "value": 20,
+                "effect": "add_food"
+            }
+        },
+        {
+            "type": "consumable",
+            "key": "starting_food_(leather_bag)",
+            "data": {
+                "name": "Food (Leather Bag)",
+                "slot": "consumable",
+                "value": 20,
+                "effect": "add_food"
+            }
+        },
+        {
+            "type": "consumable",
+            "key": "starting_food_(leather_bag)",
+            "data": {
+                "name": "Food (Leather Bag)",
+                "slot": "consumable",
+                "value": 20,
+                "effect": "add_food"
+            }
+        },
+        {
+            "type": "consumable",
+            "key": "starting_food_(leather_bag)",
+            "data": {
+                "name": "Food (Leather Bag)",
+                "slot": "consumable",
+                "value": 20,
+                "effect": "add_food"
+            }
+        },
+        {
+            "type": "consumable",
+            "key": "starting_food_(leather_bag)",
+            "data": {
+                "name": "Food (Leather Bag)",
+                "slot": "consumable",
+                "value": 20,
+                "effect": "add_food"
+            }
+        },
+        {
+            "type": "consumable",
+            "key": "starting_food_(leather_bag)",
+            "data": {
+                "name": "Food (Leather Bag)",
+                "slot": "consumable",
+                "value": 20,
+                "effect": "add_food"
+            }
+        },
+        {
+            "type": "consumable",
+            "key": "starting_food_(leather_bag)",
+            "data": {
+                "name": "Food (Leather Bag)",
+                "slot": "consumable",
+                "value": 20,
+                "effect": "add_food"
+            }
+        },
+        {
+            "type": "consumable",
+            "key": "starting_lock_picks_(pouch)",
+            "data": {
+                "name": "Lock Picks (Pouch)",
+                "slot": "consumable",
+                "value": 40,
+                "effect": "add_picks"
+            }
+        },
+        {
+            "type": "consumable",
+            "key": "starting_lock_picks_(pouch)",
+            "data": {
+                "name": "Lock Picks (Pouch)",
+                "slot": "consumable",
+                "value": 40,
+                "effect": "add_picks"
+            }
+        },
+        {
+            "type": "consumable",
+            "key": "starting_lock_picks_(pouch)",
+            "data": {
+                "name": "Lock Picks (Pouch)",
+                "slot": "consumable",
+                "value": 40,
+                "effect": "add_picks"
+            }
+        },
+        {
+            "type": "consumable",
+            "key": "starting_lock_picks_(pouch)",
+            "data": {
+                "name": "Lock Picks (Pouch)",
+                "slot": "consumable",
+                "value": 40,
+                "effect": "add_picks"
+            }
+        },
+        {
+            "type": "consumable",
+            "key": "starting_lock_picks_(pouch)",
+            "data": {
+                "name": "Lock Picks (Pouch)",
+                "slot": "consumable",
+                "value": 40,
+                "effect": "add_picks"
+            }
+        },
+        {
+            "type": "consumable",
+            "key": "starting_lock_picks_(pouch)",
+            "data": {
+                "name": "Lock Picks (Pouch)",
+                "slot": "consumable",
+                "value": 40,
+                "effect": "add_picks"
+            }
+        },
+        {
+            "type": "consumable",
+            "key": "starting_lock_picks_(pouch)",
+            "data": {
+                "name": "Lock Picks (Pouch)",
+                "slot": "consumable",
+                "value": 40,
+                "effect": "add_picks"
+            }
+        },
+        {
+            "type": "consumable",
+            "key": "starting_lock_picks_(pouch)",
+            "data": {
+                "name": "Lock Picks (Pouch)",
+                "slot": "consumable",
+                "value": 40,
+                "effect": "add_picks"
+            }
+        },
+        {
+            "type": "consumable",
+            "key": "starting_lock_picks_(pouch)",
+            "data": {
+                "name": "Lock Picks (Pouch)",
+                "slot": "consumable",
+                "value": 40,
+                "effect": "add_picks"
+            }
+        },
+        {
+            "type": "consumable",
+            "key": "starting_lock_picks_(pouch)",
+            "data": {
+                "name": "Lock Picks (Pouch)",
+                "slot": "consumable",
+                "value": 40,
+                "effect": "add_picks"
+            }
+        },
+        {
+            "type": "consumable",
+            "key": "starting_lock_picks_(pouch)",
+            "data": {
+                "name": "Lock Picks (Pouch)",
+                "slot": "consumable",
+                "value": 40,
+                "effect": "add_picks"
+            }
+        },
+        {
+            "type": "consumable",
+            "key": "starting_lock_picks_(pouch)",
+            "data": {
+                "name": "Lock Picks (Pouch)",
+                "slot": "consumable",
+                "value": 40,
+                "effect": "add_picks"
+            }
+        },
+        {
+            "type": "consumable",
+            "key": "starting_lock_picks_(pouch)",
+            "data": {
+                "name": "Lock Picks (Pouch)",
+                "slot": "consumable",
+                "value": 40,
+                "effect": "add_picks"
+            }
+        },
+        {
+            "type": "consumable",
+            "key": "starting_lock_picks_(pouch)",
+            "data": {
+                "name": "Lock Picks (Pouch)",
+                "slot": "consumable",
+                "value": 40,
+                "effect": "add_picks"
+            }
+        },
+        {
+            "type": "consumable",
+            "key": "starting_lock_picks_(pouch)",
+            "data": {
+                "name": "Lock Picks (Pouch)",
+                "slot": "consumable",
+                "value": 40,
+                "effect": "add_picks"
+            }
+        },
+        {
+            "type": "consumable",
+            "key": "starting_potion_of_lesser_healing",
+            "data": {
+                "name": "Potion of Lesser Healing",
+                "slot": "consumable",
+                "value": 80,
+                "effect": "heal"
+            }
+        },
+        {
+            "type": "consumable",
+            "key": "starting_potion_of_lesser_healing",
+            "data": {
+                "name": "Potion of Lesser Healing",
+                "slot": "consumable",
+                "value": 80,
+                "effect": "heal"
+            }
+        },
+        {
+            "type": "consumable",
+            "key": "starting_potion_of_lesser_healing",
+            "data": {
+                "name": "Potion of Lesser Healing",
+                "slot": "consumable",
+                "value": 80,
+                "effect": "heal"
+            }
+        }
     ]
 }
