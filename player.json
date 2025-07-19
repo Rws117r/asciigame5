@@ -1,0 +1,22 @@
+{
+    "name": "Adventurer",
+    "race": "Elf",
+    "hero_path": "Warrior",
+    "stats": {
+        "str": 35,
+        "dex": 50,
+        "int": 35,
+        "hp": 20
+    },
+    "info": {
+        "life": 3,
+        "rep": 1,
+        "fate": 3
+    },
+    "equipment": {},
+    "inventory": [],
+    "skills_choice": [
+        "Agility",
+        "Aware"
+    ]
+}
